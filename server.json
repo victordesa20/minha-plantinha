@@ -10,14 +10,14 @@
     {
       "id": 2,
       "photo": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
-      "name": "Plantiha só a paz",
+      "name": "Plantinha só a paz",
       "description": "Plantiha com vaso azul",
       "price": 80
     },
     {
       "id": 3,
       "photo": "https://images.unsplash.com/photo-1507392671925-cbcf789b478d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "name": "Plantiha escritorio",
+      "name": "Plantinha escritorio",
       "description": "Plantiha com vaso escuro",
       "price": 200
     },

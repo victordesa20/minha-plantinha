@@ -5,7 +5,21 @@ export const Container = styled.div`
   height: 100vh;
   margin: auto;
   
+  button {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1%;
+    outline: none;
+    border: 1px solid #000;
+  }
   
+  button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+    transition: all 0.5s;
+  }
+
   nav {
     min-width: 100%;
     height: 10vh;
@@ -89,6 +103,12 @@ export const Container = styled.div`
     border-radius: 12px;
     padding: 2%;
     margin-top: 1%;
+  }
+
+  .product-content:hover {
+    background-color: lightgreen;
+    color: #fff;
+    transition: all 0.5s;
   }
 
   .cadastro{
