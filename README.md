@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# Desafio 2 Hiring Coders
+  Desenvolvimento de uma página de e-commerce para invetário de produtos e clientes, feito com typescript e react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Página no Desktop
+![plantinhashome](https://user-images.githubusercontent.com/79595032/126917203-82def4b6-709a-40b5-8b9a-669717d757e0.PNG)
+![plantinhaspromocao](https://user-images.githubusercontent.com/79595032/126917207-a5f8bd4e-a2cb-4717-83ca-e7cb870f2517.PNG)
+![plantinhascadastro](https://user-images.githubusercontent.com/79595032/126917198-b5b200b5-5656-4fab-8027-3d71d9c6fd54.PNG)
 
-## Available Scripts
+## Página Mobile
 
-In the project directory, you can run:
+![plantinhashomemobile](https://user-images.githubusercontent.com/79595032/126917206-1a2cf798-1acb-48de-8f9e-6d8a225bd018.PNG)
 
-### `yarn start`
+![plantinhaspromocaomobile](https://user-images.githubusercontent.com/79595032/126917208-aa6cea56-80a4-49d7-b71e-bf8a3c711cba.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![plantinhascadastromobile](https://user-images.githubusercontent.com/79595032/126917201-8e59165d-43b4-49a7-933b-31ad36bea493.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Item selecionado
+![plantinhascard](https://user-images.githubusercontent.com/79595032/126917202-b477f69d-3874-4649-b808-b5d06dac29a2.PNG)
 
-### `yarn test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+No menu de navegação ao clicar nos botôes são redirecionados para a respectiva parte da página.
+Ao clicar no botão dos itens, são armazenados no localstorage o id, nome, descrição e preço dos itens, como se fossem um carrinho de compras.
