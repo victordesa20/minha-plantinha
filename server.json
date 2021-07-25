@@ -2,8 +2,17 @@
   "produtos" : [
     {
       "id": 1,
+      "photo": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-purple-select-2019_GEO_EMEA?wid=470&hei=556&fmt=png-alpha&.v=1567021766320",
       "name": "Iphone",
+      "description": "Descrição do produto",
       "price": 5000
+    },
+    {
+      "id": 2,
+      "photo": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-purple-select-2019_GEO_EMEA?wid=470&hei=556&fmt=png-alpha&.v=1567021766320",
+      "name": "Galaxy",
+      "description": "Descrição do produto",
+      "price": 8000
     }
   ]
 }

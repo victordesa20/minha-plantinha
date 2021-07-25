@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Home from './view/Home';
 
 const App: React.FC = () => {
-    return (
-      <div>
-        <h1>Hello Vtex</h1>
-      </div>
-    );
+    return <Home />;
 }
 
 export default App;
