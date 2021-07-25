@@ -29,7 +29,6 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom: 1px solid #fff;
   }
   
   .nomeloja {
@@ -114,7 +113,35 @@ export const Container = styled.div`
   .cadastro{
     width: 100%;
     height: 80vh;
-    background-color: red;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-title {
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .form-cadastro {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  .form-cadastro label, input {
+    width: 80%;
+    padding: 1%;
   }
 
   footer {
