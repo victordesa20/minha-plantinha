@@ -7,12 +7,12 @@ export default createGlobalStyle`
   }
 
   a {
-    color: #ffffffe0;
+    color: #ffffff;
     text-decoration: none;
   }
 
   a:hover {
-    color: #ffffff;
+    color: lightgreen;
   }
 
   input:focus {

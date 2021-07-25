@@ -36,7 +36,7 @@ const Home: React.FC = () => {
             </div>
 
             <div className="nav-ofertas"> 
-              <a href="#"><i className="fas fa-sun">Plantinhas do dia!</i></a>
+              <a href="#plantinhas-do-dia"><i className="fas fa-sun">Plantinhas do dia!</i></a>
             </div>
 
             <div className="nav-vasinho"> 
@@ -48,24 +48,34 @@ const Home: React.FC = () => {
             </div>
           </nav>
 
-          <section className="planta-background">
-
+          <section className="promocao-container">
+            <div className="promocao-text">
+              <p>Aproveite!!</p>
+              <h2>Só hoje 25% OFF</h2>
+            </div>
+            <div className="promocao-image">
+              <img src="https://images.unsplash.com/photo-1558261150-1543b2aeb885?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="imagem de promoção" width="300px" height="400px" />
+            </div>
           </section>
 
-          <section className="ofertas-do-dia">
+          <section className="ofertas-do-dia" id="plantinhas-do-dia">
             {data.map( (prod, index) => (
               <div className="container">
                 <div className="product-content" key={prod.id}>
                   <img src={prod.photo} alt="iphone" width="200" height="auto"/>
                   <h4>{prod.name}</h4>
                   <span>{prod.description}</span>
-                  <h6>{prod.price}</h6>
+                  <h6>R$ {prod.price}</h6>
                   <button onClick={ () => handleCart(index)}>Adicionar ao meu vaso</button>
                 </div>
               </div>
           ))}
           </section>
 
+          <section className="cadastro">
+
+          </section>
+          
           <footer>
             <div className="footer">
               <div className="name-footer">
