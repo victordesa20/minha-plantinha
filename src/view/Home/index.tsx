@@ -74,12 +74,10 @@ const Home: React.FC = () => {
 
           <section className="cadastro" id="cadastro">
             <div className="form-title">
-              <h1>Cadastro de Clientes</h1>
+              <h2>Clube das Sementes :3</h2>
+              <p>Cadastre-se para receber uma semente de graça todos os meses!</p>
             </div>
             <form className="form-cadastro">
-
-              <label htmlFor="ide">ID *</label>
-              <input type="text" name="ide" id="ide" placeholder="Insira seu identificador" required></input>
 
               <label htmlFor="nome">Nome Completo *</label>
               <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo" required></input>
@@ -92,6 +90,9 @@ const Home: React.FC = () => {
 
               <label htmlFor="endereco">CEP *</label>
               <input type="text" name="endereco" id="endereco" placeholder="Insira o seu CEP" required></input>
+
+              <label htmlFor="complemento">Complemento *</label>
+              <input type="text" name="complemento" id="complemento" placeholder="Insira complemento" required></input>
 
               <button>Cadastrar</button>
             </form>
