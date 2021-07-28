@@ -1,5 +1,7 @@
 # Desafio 2 Hiring Coders
   Desenvolvimento de uma página de e-commerce para invetário de produtos e clientes, feito com typescript e react.
+  
+### Acesse: https://minhaplantinha.netlify.app/
 
 ## Página no Desktop
 ![plantinhashome](https://user-images.githubusercontent.com/79595032/126917203-82def4b6-709a-40b5-8b9a-669717d757e0.PNG)
