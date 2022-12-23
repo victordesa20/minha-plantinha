@@ -10,14 +10,18 @@
 
 ## Página Mobile
 
+<div align="center">
+
 ![plantinhashomemobile](https://user-images.githubusercontent.com/79595032/126917206-1a2cf798-1acb-48de-8f9e-6d8a225bd018.PNG)
 
 ![plantinhaspromocaomobile](https://user-images.githubusercontent.com/79595032/126917208-aa6cea56-80a4-49d7-b71e-bf8a3c711cba.PNG)
+![plantinhascard](https://user-images.githubusercontent.com/79595032/126917202-b477f69d-3874-4649-b808-b5d06dac29a2.PNG)
 
 ![plantinhascadastromobile](https://user-images.githubusercontent.com/79595032/126917201-8e59165d-43b4-49a7-933b-31ad36bea493.PNG)
 
-### Item selecionado
-![plantinhascard](https://user-images.githubusercontent.com/79595032/126917202-b477f69d-3874-4649-b808-b5d06dac29a2.PNG)
+</div>
+
+
 
 ## Funcionalidades
 
